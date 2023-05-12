@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div align="center">
+    <h2>List All Users</h2>
+    <h3><a href="/user/new">New User</a></h3>
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>ID</th>
+            <th>firstName</th>
+            <th>lastName</th>
+            <th>E-mail</th>
+        </tr>
+        <tr th:each="user : ${list}">
+            <td th:text="${user.id}"></td>
+            <td th:text="${user.firstName}"></td>
+            <td th:text="${user.lastName}"></td>
+            <td th:text="${user.email}"></td>
+            <td><a th:href="@{/user/edit/{id}(id=${user.getId})}">Edit</a></td>
+
+            <td><a th:href="@{/user/delete/{id}(id=${user.getId})}">Delete</a></td>
+            </tr>
+    </table>
+</div>
+</body>
+</html>
