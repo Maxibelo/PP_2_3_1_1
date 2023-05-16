@@ -11,7 +11,7 @@ import java.util.List;
 public class UserDAOImpl implements UserDAO {
 
     @PersistenceContext
-    EntityManager entityManager;
+    private EntityManager entityManager;
 
     @Autowired
     public UserDAOImpl() {

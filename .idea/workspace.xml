@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95261ade-1d6f-44d5-b34c-b7af6469c028" name="Changes" comment="" />
+    <list default="true" id="95261ade-1d6f-44d5-b34c-b7af6469c028" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/db1b635e-a08b-4ff0-99ba-8036c709abbc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/db1b635e-a08b-4ff0-99ba-8036c709abbc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +22,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -53,7 +62,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.5",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "bc4ac97e305f836665cc4ed49fa9a18b",
+    "spring.configuration.checksum": "c5611d5c8c9f9e897d6bf480c0e77655",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -72,9 +81,6 @@
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="contextPath" value="/" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -107,6 +113,7 @@
       <workItem from="1683696803682" duration="590000" />
       <workItem from="1683740997116" duration="2074000" />
       <workItem from="1683828691413" duration="18414000" />
+      <workItem from="1684175737956" duration="8220000" />
     </task>
     <servers />
   </component>
