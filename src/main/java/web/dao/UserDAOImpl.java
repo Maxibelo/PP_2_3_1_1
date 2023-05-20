@@ -14,11 +14,12 @@ public class UserDAOImpl implements UserDAO {
     private EntityManager entityManager;
 
     @Autowired
-    public UserDAOImpl() {
+    public UserDAOImpl(EntityManager entityManager) {
+        this.entityManager = entityManager;
     }
 
     @Override
-    public List getAllUsers() {
+    public List<User> getAllUsers() {
         return entityManager.createQuery("select u from User u", User.class).getResultList();
     }
 
